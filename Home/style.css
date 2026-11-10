@@ -64,7 +64,7 @@ nav {
 .wrap-btns {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
 }
 .wrap-btns button{
  padding: 8px 20px 8px 20px ;
@@ -73,10 +73,12 @@ nav {
  border: 2px solid rgb(0, 0, 0);
  color: rgb(0, 0, 0);
  font-family: Arial, Helvetica, sans-serif;
+ font-size: 30px;
  background: none ;
 box-shadow: 2px 3px 15px rgb(255, 255, 255);
 opacity: 0.9;
 transition: all 400ms linear;
+
 }
 .wrap-btns button:hover{
     opacity: 1;
@@ -84,7 +86,7 @@ transition: all 400ms linear;
     border: 2px solid #b32323;
     color: #b32323;
     box-shadow: 2px 3px 15px white;
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 .s2 {
     height: 100vh;
